@@ -1,0 +1,29 @@
+.main {
+    min-height: 100vh;
+
+}
+
+.return {
+    padding: 0 4vw;
+    display: flex;
+    justify-content: center;
+}
+
+.heding {
+    display: flex;
+    justify-content: center;
+}
+
+.blogs {
+    cursor: pointer;
+    padding: 0 10px;
+    border: 1px solid #ccc!important;
+    border-radius: 16px;
+    border-color: black;
+    margin: 18px;
+}
+
+.b {
+    display: flex;
+    flex-direction: column;
+}
