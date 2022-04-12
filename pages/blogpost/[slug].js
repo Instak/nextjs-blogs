@@ -12,7 +12,7 @@ const slug = (props) => {
         {blog && blog.content}
         <br />
         <br />
-        -by {blog && blog.Author}
+        -by{blog && blog.Author}
       </div>
     </div>
   );
