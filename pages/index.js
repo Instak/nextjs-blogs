@@ -17,7 +17,7 @@ export default function Home() {
 
         {/* <Image alt='coding image' className={styles.img} src={profilePic}/> */}
         <h1 className={styles.title}>
-          Coding for beginers yo bro
+          Coding for beginers
         </h1>
 
         <p className={styles.description}>
