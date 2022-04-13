@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
+
 import Link from 'next/link'
-import profilePic from '../public/codinglogo.jpg'
+
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
 
       <main className={styles.main}>
 
-        <Image alt='coding image' className={styles.img} src={profilePic}/>
+        {/* <Image alt='coding image' className={styles.img} src={profilePic}/> */}
         <h1 className={styles.title}>
           Coding for beginers
         </h1>

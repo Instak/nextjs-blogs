@@ -18,9 +18,9 @@
     cursor: pointer;
     padding: 0 10px;
     border: 1px solid #ccc!important;
-    border-radius: 16px;
+    /* border-radius: 16px;
     border-color: black;
-    margin: 18px;
+    margin: 18px; */
 }
 
 .b {
