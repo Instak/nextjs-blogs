@@ -52,16 +52,18 @@ import * as fs from 'fs';
 // Step 2: Iterate through the and Display them
 
 const Blog = (props) => {
-  console.log(props)
+ // console.log(props)
   const [blogs, setBlogs] = useState(props.allBlogs);
   // useEffect(() => {
     
+  
+
   // }, [])
   return <div className={styles.container}>
     <main className={styles.main}>
       {blogs.map((blogitem) => {
         return <div key={blogitem.slug} className={styles.blogs}><div className={styles.b}><Link href={`/blogpost/${blogitem.slug}`}><h2 className={styles.heding}>{blogitem.Title}</h2></Link>
-               <p>{blogitem.content.substr(0,140)}...</p></div></div>
+               <p>{blogitem.p1.substr(0,140)}...</p></div></div>
       })}
     </main>
   </div>
@@ -74,7 +76,7 @@ export async function getStaticProps(context) {
   let allBlogs = [];
     for (let index = 0; index < data.length; index++) {
       const item = data[index];
-        console.log(item)
+       // console.log(item)
         myfile = await fs.promises.readFile(('blogdata/' + item), 'utf-8') 
         allBlogs.push(JSON.parse(myfile))
     }
