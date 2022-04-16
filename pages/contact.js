@@ -50,7 +50,7 @@ const Contact = () => {
 
   return <div className={styles.container}>
     <h1>Contact Us</h1>
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} method="POST" data-netlify="true">
       <div className={styles.mb3}>
         <label htmlFor="name" className={styles.formlabel}>Enter your name</label>
         <input className={styles.input} type="text" value={name} onChange={handleChange} id="name" name='name' aria-describedby="emailHelp" />
