@@ -4,7 +4,7 @@ import styles from '../styles/contact.module.css'
 const contact = () => {
   return (
     <div>
-      <iframe className={styles.form} src="https://docs.google.com/forms/d/e/1FAIpQLSdoXZo9KfDi7jjM33aRCtc5xHkB4U8pOu0NKvp_K4jLzaBLJw/viewform?embedded=true" width="640" height="979" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe className={styles.form} src="https://docs.google.com/forms/d/e/1FAIpQLSdoXZo9KfDi7jjM33aRCtc5xHkB4U8pOu0NKvp_K4jLzaBLJw/viewform?embedded=true" width="640" height="979" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
     </div>
   )
 }
