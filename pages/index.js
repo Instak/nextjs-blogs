@@ -15,10 +15,11 @@ export default function Home() {
 
       <main className={styles.main}>
 
-        {/* <Image alt='coding image' className={styles.img} src={profilePic}/> */}
         <h1 className={styles.title}>
           Coding for beginers
         </h1>
+        
+       <img src="/coding.module.gif" alt="" />
 
         <p className={styles.description}>
           A site for beginers.

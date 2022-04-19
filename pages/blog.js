@@ -62,13 +62,16 @@ const Blog = (props) => {
   return <div className={styles.container}>
     <main className={styles.main}>
       {blogs.map((blogitem) => {
-        return <div key={blogitem.slug} className={styles.blogs}><div className={styles.b}><Link href={`/blogpost/${blogitem.slug}`}><h2 className={styles.heding}>{blogitem.Title}</h2></Link>
-               <p>{blogitem.p1.substr(0,140)}...</p></div></div>
+        return <div key={blogitem.slug} className={styles.blogs}><div className={styles.b}><Link href={`/blogpost/${blogitem.slug}`}><h2 className={styles.blogItemh3}>{blogitem.Title}</h2></Link>
+               <p className={styles.blogItemp} >{blogitem.metadesc.substr(0,140)}...</p>
+               <button className={styles.btn}>Read more</button>
+               </div></div>
       })}
     </main>
   </div>
 };
 
+// https://www.freeformatter.com/json-escape.html
 
 export async function getStaticProps(context) { 
   let data = await fs.promises.readdir("blogdata");
