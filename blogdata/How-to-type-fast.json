@@ -1,0 +1,9 @@
+{
+    "Title": "How to type fast",
+    "p1":"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<\/head>\r\n<style>\r\n    .heading{\r\n        padding: 0 35vw;\r\n    font-size: 31px;\r\n    font-weight: bold;\r\n    }\r\n    .text{\r\n        font-size: 24px;\r\n    }\r\n<\/style>\r\n<body>\r\n    <header><h1 class=\"heading\">How to type really very fast<\/h1><\/header>\r\n    <ol class=\"text\">\r\n        <li>Increase your acuracy<\/li>\r\n        <li>Practic it every day<\/li>\r\n        <li>Try to remember place of the keys<\/li>\r\n          <li><a href=\"#skfhdk\"style=\"text-decoration: none;color: black;\">Play games in with you can do typing Race<\/a><\/li>\r\n    <\/ol>\r\n   <A name=\"#skfhdk\"> <img src=\"https:\/\/support.content.office.net\/en-us\/media\/0321edda-f107-c6db-f1dd-9551408d999f.jpg\" alt=\"\"><\/A>\r\n<\/body>\r\n<\/html>",
+    "metadesc":"Typing Really fast",
+    "Author": "Anuj Prakash",
+    "slug":"How-to-type-fast"
+}
+
+

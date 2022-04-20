@@ -12,7 +12,7 @@ const Slug = (props) => {
 
   return (
     <div className={styles.p}>
-      <h1> {blog && blog.slug}</h1>
+      {/* <h1> {blog && blog.slug}</h1> */}
       {blog &&<div  dangerouslySetInnerHTML={createMarkup(blog.p1)} ></div> }
       
     
